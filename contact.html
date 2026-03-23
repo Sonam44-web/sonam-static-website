@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me | IITHUB Portfolio</title>
+    <link rel="stylesheet" href="styles/global.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=JetBrains+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="navbar"></div>
+
+    <main class="section-padding" style="margin-top: 50px;">
+        <div class="container">
+            <div class="section-header animate-up">
+                <span class="badge">Get in Touch</span>
+                <h2>Start a <span>Conversation Today</span></h2>
+                <p>Have a question or want to collaborate? I'm always open to discussing new IT challenges and projects.</p>
+            </div>
+
+            <div class="contact-container">
+                <div class="contact-info animate-up">
+                    <div class="card" style="margin-bottom: 2rem;">
+                        <h3>Contact Information</h3>
+                        <p style="margin: 1.5rem 0 0.5rem 0;"><strong>Email Address</strong></p>
+                        <p>connect@ithub.pages.dev</p>
+                        <p style="margin: 1.5rem 0 0.5rem 0;"><strong>Phone</strong></p>
+                        <p>+1-555-SERVER-IT</p>
+                        <p style="margin: 1.5rem 0 0.5rem 0;"><strong>Location</strong></p>
+                        <p>Enterprise Valley, CA</p>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper animate-up" style="animation-delay: 0.1s;">
+                    <form id="contactForm" class="card">
+                        <div class="input-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" placeholder="John Doe" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" placeholder="Project Inquiry" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Tell me about your IT requirements..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div id="footer"></div>
+
+    <script src="js/components.js"></script>
+</body>
+</html>
